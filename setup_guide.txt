@@ -1,0 +1,24 @@
+# Get git-completion
+Move "git-completion.bash" to home directory
+
+# Get git-prompt
+Move "git-prompt.sh" to home directory
+
+# Set up bash profile
+If ".bash_profile" exists in home directory, then copy and paste contents of
+"bash_profile_course" to the bottom of ".bash_profile".
+If ".bash_profile" does not exist in home directory, then copy
+"bash_profile_course" to home directory and then rename as ".bash_profile"
+
+# Get meaningful colored text in bash
+> git config --global color.ui auto
+
+# Associate text editor with Git
+> git config --global core.editor "atom --wait"
+
+# Additional commands
+> git config --global push.default upstream
+> git config --global merge.conflictstyle diff3
+
+# Final tasks
+Restart git bash
