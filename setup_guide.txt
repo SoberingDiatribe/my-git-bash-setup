@@ -20,5 +20,11 @@ If ".bash_profile" does not exist in home directory, then copy
 > git config --global push.default upstream
 > git config --global merge.conflictstyle diff3
 
+# Create ssh key
+> ssh-keygen
+# Associate with ssh-agent
+> eval `ssh-agent -s`
+> ssh-add ~/.ssh/id_rsa
+
 # Final tasks
 Restart git bash
